@@ -2,6 +2,9 @@
 
 html {
   font-size: 18px;
+}
+
+body {
   line-height: 1.4;
 }
 
@@ -64,15 +67,17 @@ header nav span {
   color: inherit;
 }
 
-/* banner styles */
+/* banner section */
+
 .banner {
   display: flex;
   background-color: #d8d8d8;
-
 }
+
 .banner img {
   margin: 32px 24px;
-  max-width: 60%;
+  width: 60%;
+  height: auto;
 }
 
 .bannerinfo {
@@ -120,22 +125,41 @@ header nav span {
   flex-direction: column;
   width: 60%;
   padding: 32px 24px;
+  border-right: 2px solid #d8d8d8;
 }
 
 .infomain img {
+  margin-bottom: 32px;
 }
+
+.infomain h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.infomain p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.infomain .quote {
+  font-size: 1.3rem;
+  padding-top: 24px;
+  font-weight: 500;
+}
+
 
 .infosection {
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
   width: 40%;
 }
 
 .orientation, .campus, .guest {
   display: flex;
   padding: 32px 0 16px 16px;
-  border-left: 2px solid #d8d8d8;
   border-bottom: 2px solid #d8d8d8;
 }
 
@@ -144,6 +168,40 @@ header nav span {
   height: auto;
 }
 
-.orientationtext, .campustext, .guesttext {
+.infotext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 65%;
+}
+
+.infotext h3 {
+    font-size: 2.5rem;
+}
+
+.infotext p {
+    font-size: 1.5rem;
+    padding: 8px 0;
+}
+
+.guest {
+  background-color: #d8d8d8;
+}
+
+.infobutton {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* courses section */
+
+.coursecontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #d8d8d8;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
 }
