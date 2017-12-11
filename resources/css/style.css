@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 /* header styles */
@@ -72,6 +72,7 @@ header nav span {
 .banner {
   display: flex;
   background-color: #d8d8d8;
+  height: 900px;
 }
 
 .banner img {
@@ -118,6 +119,7 @@ header nav span {
 
 .information {
   display: flex;
+
 }
 
 .infomain {
@@ -126,10 +128,12 @@ header nav span {
   width: 60%;
   padding: 32px 24px;
   border-right: 2px solid #d8d8d8;
+  flex-grow: 1;
 }
 
 .infomain img {
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .infomain h2 {
@@ -145,7 +149,7 @@ header nav span {
 
 .infomain .quote {
   font-size: 1.3rem;
-  padding-top: 24px;
+  padding-top: 62px;
   font-weight: 500;
 }
 
@@ -155,6 +159,7 @@ header nav span {
   flex-direction: column;
   padding-bottom: 32px;
   width: 40%;
+  flex-grow: 1;
 }
 
 .orientation, .campus, .guest {
@@ -165,6 +170,7 @@ header nav span {
 
 .orientation img, .campus img, .guest img {
   max-width: 35%;
+  padding-right: 24px;
   height: auto;
 }
 
@@ -199,9 +205,113 @@ header nav span {
   display: flex;
   flex-direction: column;
   background-color: #d8d8d8;
+  align-items: center;
+}
+
+.courseheader {
+  margin: 32px 0;
 }
 
 .courses {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 72px;
+
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+  margin-bottom: 32px;
+  flex-grow: 1;
+}
+
+.computerart, .design, .business, .marketing {
+  margin-left: 32px;
+}
+
+.course img {
+  height: auto;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 24px 16px;
+  background-color: white;
+  flex-grow: 1;
+
+}
+
+.course h4 {
+  margin: 8px 0;
+}
+
+/* thesis section */
+
+.thesisheader {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.thesis {
+  display: flex;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.thesismain {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 24px 0 24px;
+
+}
+
+.thesismain video {
+  margin-bottom: 24px;
+}
+
+.thesismain h3 {
+  margin-bottom: 8px;
+}
+
+.thesismain p {
+  margin-bottom: 32px;
+}
+
+.thesissection {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.thesisbox {
+  display: flex;
+}
+
+.thesisbox img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px;
+}
+
+.thesistext {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+}
+
+.fisma {
+  background-color: #d8d8d8;
+}
+/* footer section */
+
+footer {
+  display: flex;
+  margin: 16px 24px 0 24px;
+  justify-content: space-between;
 }
