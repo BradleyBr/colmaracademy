@@ -5,15 +5,24 @@ html {
 }
 
 body {
-  line-height: 1.2;
+  line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+  color: #4a4a4a;
 }
+
+p {
+  font-weight: 400;
+  color: #535353;
+  letter-spacing: 1.1px;
+}
+
 
 /* header styles */
 
 header {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: #ffffff;
   height: 64px;
   margin:0 24px 0 24px;
 }
@@ -53,18 +62,25 @@ header nav {
   align-items: center;
 }
 
-header nav span {
-  margin-left: 16px;
-  font-size: 1.35rem;
-}
-
 .headernav {
   text-decoration: none;
   color: inherit;
+  font-size:1.35rem;
+  padding-top: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 17px;
+  margin-bottom:5px;
 }
 
 .headernav:visited {
   color: inherit;
+}
+
+.headernav:hover {
+  background-color: #383636;
+  border-radius: 5px;
+  color: white;
 }
 
 /* banner section */
@@ -94,7 +110,8 @@ header nav span {
 }
 
 .banner h3 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
+  font-weight: 500;
 }
 
 .banner .button {
@@ -106,12 +123,18 @@ header nav span {
   font-size: 1.7rem;
 }
 
-.banner .button a:visited {
+.button {
+  text-decoration: none;
+  transition: background-color 50ms linear;
+  trans
+}
+
+.button:visited {
   color: white;
 }
 
-.banner .button {
-  text-decoration: none;
+.button:hover {
+  background-color: #323232;
 }
 
 
@@ -129,6 +152,7 @@ header nav span {
   padding: 32px 24px;
   border-right: 2px solid #d8d8d8;
   flex-grow: 1;
+  background-color: #f3f5f5;
 }
 
 .infomain img {
@@ -143,13 +167,12 @@ header nav span {
 }
 
 .infomain p {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .infomain .quote {
   font-size: 1.3rem;
-  padding-top: 62px;
+  padding-top: 25px;
   font-weight: 500;
 }
 
@@ -160,6 +183,7 @@ header nav span {
   padding-bottom: 32px;
   width: 40%;
   flex-grow: 1;
+  background-color: #f3f5f5;
 }
 
 .orientation, .campus, .guest {
@@ -182,11 +206,12 @@ header nav span {
 }
 
 .infotext h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .infotext p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding: 8px 0;
 }
 
@@ -197,6 +222,10 @@ header nav span {
 .infobutton {
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+.infobutton:hover {
+  text-decoration: underline;
 }
 
 /* courses section */
@@ -210,6 +239,8 @@ header nav span {
 
 .courseheader {
   margin: 32px 0;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .courses {
@@ -240,25 +271,52 @@ header nav span {
   display: flex;
   flex-direction: column;
   padding: 16px 0 24px 16px;
-  background-color: white;
+  background-color: #ffffff;
   flex-grow: 1;
 
 }
 
-.course h4 {
+.textbox h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.textbox h4 {
+  font-size: 1.4rem;
   margin: 8px 0;
+  color: #8f8e8e;
+}
+
+.textbox p {
+  font-size: 1.4rem;
+  color: #8f8e8e;
 }
 
 /* thesis section */
 
+.thesiscontainer {
+    background-color: #f3f5f5;
+}
+
 .thesisheader {
-  margin: 32px 0;
+  padding: 32px 0;
   text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
 }
 
 .thesis {
   display: flex;
   border-bottom: 1px solid #d8d8d8;
+}
+
+.thesis h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.thesis p {
+  font-size: 1.4rem;
 }
 
 .thesismain {
@@ -301,7 +359,6 @@ header nav span {
   display: flex;
   flex-direction: column;
   width: 65%;
-  align-items: center;
   justify-content: center;
 }
 
@@ -312,6 +369,17 @@ header nav span {
 
 footer {
   display: flex;
-  margin: 16px 24px 0 24px;
+  padding: 16px 24px 40px 24px;
   justify-content: space-between;
+  background-color: #f3f5f5;
+  font-size: 1.3rem;
+}
+
+.footernav {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footernav:visited {
+  color: inherit;
 }
