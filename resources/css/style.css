@@ -170,7 +170,7 @@ header nav {
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 720px) {
   .banner {
     display: flex;
     flex-direction: column;
@@ -293,7 +293,7 @@ header nav {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 720px) {
   .infomain {
     display: none;
   }
@@ -404,7 +404,7 @@ header nav {
   color: #8f8e8e;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 720px) {
   .coursecontainer {
     background-color: #f3f5f5;
   }
