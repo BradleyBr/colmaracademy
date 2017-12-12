@@ -5,7 +5,7 @@
     <title>Colmar Academy</title>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
     <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
@@ -17,12 +17,17 @@
           <h1 class="academy">ACADEMY</h1>
         </div>
       </div>
-      <nav>
+      <nav class="desktopnav">
         <a href="#" class="headernav">On Campus</a>
         <a href="#" class="headernav">Online</a>
         <a href="#" class="headernav">For Companies</a>
         <a href="#" class="headernav">Sign in</a>
       </nav>
+      <nav class="mobileheader">
+        <a href="#" class="mobilenav"><img src="./resources/images/ic-logo.svg"></a>
+        <a href="#" class="mobilenav"><img src="./resources/images/ic-on-campus.svg"></a>
+        <a href="#" class="mobilenav"><img src="./resources/images/ic-online.svg"></a>
+        <a href="#" class="mobilenav"><img src="./resources/images/ic-login.svg"></a>
     </header>
     <div class="banner">
       <img src="./resources/images/banner.jpg">
@@ -42,7 +47,7 @@
         <span class="quote">Emanual, Sr Strategist at Hiring.com</span>
       </div>
       <div class="infosection">
-        <div class="orientation">
+        <div class="orientation infopanel">
           <img src="./resources/images/information-orientation.jpg">
           <div class="orientationtext infotext">
             <h3>Orientation date</h3>
@@ -50,7 +55,7 @@
             <a href="#" class="infobutton">Read more</a>
           </div>
         </div>
-        <div class="campus">
+        <div class="campus infopanel">
           <img src="./resources/images/information-campus.jpg">
           <div class="campustext infotext">
             <h3>Our campus</h3>
@@ -58,7 +63,7 @@
             <a href="#" class="infobutton">Read more</a>
           </div>
         </div>
-        <div class="guest">
+        <div class="guest infopanel">
           <img src="./resources/images/information-guest-lecture.jpg">
           <div class="guesttext infotext">
             <h3>Our guest lecture</h3>
@@ -118,6 +123,57 @@
             <h3>Marketing</h3>
             <h4>COURSES</h4>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </div>
+        <div class="mobilecourses">
+          <div class="mobilesoftware mobilecourse">
+            <h3>Software engineering</h3>
+            <div class="mobiledropbox">
+              <img src="./resources/images/course-software.jpg">
+              <h4>COURSES</h4>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
+          </div>
+          <div class="mobilecomputer mobilecourse">
+            <h3>Computer art</h3>
+            <div class="mobiledropbox">
+              <img src="./resources/images/course-computer-art.jpg">
+              <h4>COURSES</h4>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects,
+              Computer Animation</p>
+            </div>
+          </div>
+          <div class="mobiledesign mobilecourse">
+            <h3>Design</h3>
+            <div class="mobiledropbox">
+              <img src="./resources/images/course-design.jpg">
+              <h4>COURSES</h4>
+              <p>User Experience Design, User Research, Visual Design</p>
+            </div>
+          </div>
+          <div class="mobiledata mobilecourse">
+            <h3>Data</h3>
+            <div class="mobiledropbox">
+              <img src="./resources/images/course-data.jpg">
+              <h4>COURSES</h4>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+          </div>
+          <div class="mobilebusiness mobilecourse">
+            <h3>Business</h3>
+            <div class="mobiledropbox">
+              <img src="./resources/images/course-business.jpg">
+              <h4>COURSES</h4>
+              <p>Product Development, Business Development, Startup</p>
+            </div>
+          </div>
+          <div class="mobilemarketing mobilecourse">
+            <h3>Marketing</h3>
+            <div class="mobiledropbox">
+              <img src="./resources/images/course-marketing.jpg">
+              <h4>COURSES</h4>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
           </div>
         </div>
       </div>
